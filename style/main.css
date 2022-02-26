@@ -1,0 +1,84 @@
+.page-header{
+    min-height: 41.27vh;
+    max-height: 72.23vh;
+}
+
+.index-page .page-header .container>.content-center {
+    top: 50%;
+}
+
+.nav-item{
+    font-weight: 600;
+}
+
+.n-logo {
+    max-width: 150px;
+  }
+
+.clear-filter {
+    background: linear-gradient(0deg,rgba(44,44,44,.2),rgba(193, 225, 193,.6));
+}
+.lead{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    background-color: #9fb69f;
+}
+
+.btn-color {
+    background-color: rgb(193, 225, 193);
+    color: #FFFFFF;
+  }
+  .btn-color:hover,
+  .btn-color:focus{
+    background-color: rgb(159, 182, 159);
+  }
+
+  /* Transition image and show text over hover */
+div>img{
+  width: 25vh;
+  height: 25vh;
+  transition: all 2s;
+}
+
+.galleryItem{
+  clear: both;
+  margin: 10px;
+}
+
+
+.galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galleryItem p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  visibility: hidden;
+}
+
+.galleryItem:hover p {
+  visibility: visible;
+  margin-top: 10px;
+}
+
+.galleryItem:hover img {
+  transform: scale(1.1);
+}
+
+.btn-sub{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+.footer{
+  background-color: #9fb69f;
+}
+
+.copyrights{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
