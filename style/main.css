@@ -3,6 +3,11 @@
   padding-top: 85px;
 }
 
+.subtitle{
+  font-weight: 600;
+  padding-top: 30px;
+}
+
 .page-header{
     min-height: 41.27vh;
     max-height: 72.23vh;
